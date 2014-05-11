@@ -21,23 +21,23 @@ par(mfrow=c(2,2))
 with(subdata, {
     ## Global Active Power
     plot(DateTime, Global_active_power, 
-         ylab="Global Active Power", main="",
+         ylab="Global Active Power",
          xlab="", type="l")
 
     ## Voltage
     plot(DateTime, Voltage, 
-         ylab="Voltage", main="",
+         ylab="Voltage",
          xlab="datetime", type="l")
     
     ## Sub_metering
     plot(DateTime, Sub_metering_1, 
-         ylab="Energy sub metering", main="",
+         ylab="Energy sub metering",
          xlab="", type="l")
     lines(DateTime, Sub_metering_2, 
-          ylab="Energy sub metering", main="",
+          ylab="Energy sub metering",
           xlab="", type="l", col="red")
     lines(DateTime, Sub_metering_3, 
-          ylab="Energy sub metering", main="",
+          ylab="Energy sub metering",
           xlab="", type="l", col="blue")
     legend("topright", lty = 1, col = c("black", "red", "blue"),
            legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"),
@@ -45,7 +45,7 @@ with(subdata, {
 
     ## Global reactive power
     plot(DateTime, Global_reactive_power, 
-         ylab="Global_reactive_power", main="",
+         ylab="Global_reactive_power",
          xlab="datetime", type="l")
     
     })

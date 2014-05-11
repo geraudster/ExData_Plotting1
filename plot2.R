@@ -18,7 +18,7 @@ summary(subdata)
 png(file = "plot2.png")
 with(subdata, {
     plot(DateTime, Global_active_power, 
-          ylab="Global Active Power (kilowatts)", main="",
+          ylab="Global Active Power (kilowatts)",
           xlab="", type="l")
 })
 dev.off()

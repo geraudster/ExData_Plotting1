@@ -18,7 +18,7 @@ summary(subdata)
 # Plot
 png(file = "plot1.png")
 with(subdata, {
-    hist(Global_active_power, col="Red", xlab="Global Active Power (kilowatts)", main="Global Active Power")    
+    hist(Global_active_power, col="Red", xlab="Global Active Power (kilowatts)", main="Global Active Power")
 })
 dev.off()
 
