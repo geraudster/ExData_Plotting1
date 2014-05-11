@@ -1,3 +1,40 @@
+## Homework
+
+I have created a file loadData.R that manages the data retrieval and correct subsetting.
+If you want to run the plotX.R files, in R:
+
+    > setwd(<path to plotX.R files>)
+    > source("plot1.R")
+    > source("plot2.R")
+    > source("plot3.R")
+    > source("plot4.R")
+
+It will create a data/ directory in the current working dir.
+
+
+The pictures generated are the following:
+
+### Plot 1
+
+
+![plot1.png](plot1.png) 
+
+
+### Plot 2
+
+![plot2.png](plot2.png) 
+
+
+### Plot 3
+
+![plot3.png](plot3.png) 
+
+
+### Plot 4
+
+![plot4.png](plot4.png) 
+
+
 ## Introduction
 
 This assignment uses data from

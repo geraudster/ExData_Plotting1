@@ -18,6 +18,7 @@ loadDataFile <- function() {
 }
 
 ## Creates a data.table from the extracted data
+## Adds a DateTime column in POSIXct format
 ## Then returns a copy of the data for 01/02/2007 and 02/02/2007
 loadData <- function() {
     
